@@ -1,0 +1,931 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "sam@abc.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "email": "san@abc.com",
+      "password": "123456"
+    }
+  ],
+  "stories": {
+    "hits": [
+      {
+        "created_at": "2013-02-13T21:47:09.000Z",
+        "title": "Heroku's Ugly Secret: The story of how the cloud-king turned its back on Rails",
+        "url": "http://rapgenius.com/James-somers-herokus-ugly-secret-lyrics",
+        "author": "tomlemon",
+        "points": 1715,
+        "story_text": "",
+        "comment_text": null,
+        "num_comments": 426,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1360792029,
+        "relevancy_score": 4450,
+        "_tags": [
+          "story",
+          "author_tomlemon",
+          "story_5215884"
+        ],
+        "objectID": "5215884",
+        "_highlightResult": {
+          "title": {
+            "value": "Heroku's Ugly Secret: The <em>story</em> of how the cloud-king turned its back on Rails",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://rapgenius.com/James-somers-herokus-ugly-secret-lyrics",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "tomlemon",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "story_text": {
+            "value": "",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2018-11-17T13:27:56.000Z",
+        "title": "Story of a failed pentest",
+        "url": "https://threader.app/thread/1063423110513418240",
+        "author": "mariedm",
+        "points": 1147,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 167,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1542461276,
+        "relevancy_score": 8482,
+        "_tags": [
+          "story",
+          "author_mariedm",
+          "story_18475438"
+        ],
+        "objectID": "18475438",
+        "_highlightResult": {
+          "title": {
+            "value": "<em>Story</em> of a failed pentest",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://threader.app/thread/1063423110513418240",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "mariedm",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2010-08-03T15:14:14.000Z",
+        "title": "Keep calm & carry on: What you didn't know about the reddit story",
+        "url": "http://alexisohanian.com/keep-calm-carry-on-what-you-didnt-know-about",
+        "author": "mrduncan",
+        "points": 776,
+        "story_text": "",
+        "comment_text": null,
+        "num_comments": 83,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1280848454,
+        "relevancy_score": 2676,
+        "_tags": [
+          "story",
+          "author_mrduncan",
+          "story_1571427"
+        ],
+        "objectID": "1571427",
+        "_highlightResult": {
+          "title": {
+            "value": "Keep calm & carry on: What you didn't know about the reddit <em>story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://alexisohanian.com/keep-calm-carry-on-what-you-didnt-know-about",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "mrduncan",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "story_text": {
+            "value": "",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2012-03-08T19:34:46.000Z",
+        "title": "TSA Pressures Mainstream Media Not To Cover Story",
+        "url": "http://tsaoutofourpants.wordpress.com/2012/03/08/breaking-tsa-threatens-mainstream-media-not-to-cover-story/",
+        "author": "ddelphin",
+        "points": 724,
+        "story_text": "",
+        "comment_text": null,
+        "num_comments": 150,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1331235286,
+        "relevancy_score": 3791,
+        "_tags": [
+          "story",
+          "author_ddelphin",
+          "story_3681202"
+        ],
+        "objectID": "3681202",
+        "_highlightResult": {
+          "title": {
+            "value": "TSA Pressures Mainstream Media Not To Cover <em>Story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://tsaoutofourpants.wordpress.com/2012/03/08/breaking-tsa-threatens-mainstream-media-not-to-cover-<em>story</em>/",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "ddelphin",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "story_text": {
+            "value": "",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2014-08-13T11:33:53.000Z",
+        "title": "Edward Snowden: The Untold Story",
+        "url": "http://www.wired.com/2014/08/edward-snowden/",
+        "author": "promocha",
+        "points": 714,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 223,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1407929633,
+        "relevancy_score": 5498,
+        "_tags": [
+          "story",
+          "author_promocha",
+          "story_8172365"
+        ],
+        "objectID": "8172365",
+        "_highlightResult": {
+          "title": {
+            "value": "Edward Snowden: The Untold <em>Story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://www.wired.com/2014/08/edward-snowden/",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "promocha",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2012-03-29T18:08:57.000Z",
+        "title": "A Woman’s Story",
+        "url": "http://raganwald.posterous.com/a-womans-story",
+        "author": "raganwald",
+        "points": 701,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 191,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1333044537,
+        "relevancy_score": 3831,
+        "_tags": [
+          "story",
+          "author_raganwald",
+          "story_3772292"
+        ],
+        "objectID": "3772292",
+        "_highlightResult": {
+          "title": {
+            "value": "A Woman’s <em>Story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://raganwald.posterous.com/a-womans-<em>story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "raganwald",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2014-12-07T04:49:35.000Z",
+        "title": "Why is every story on Uber Delhi driver raping a passenger getting instakilled?",
+        "url": "",
+        "author": "plinkplonk",
+        "points": 698,
+        "story_text": "Every story on this incident is getting killed moments after submission.<p>https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=8711222\nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=8711196\nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=8711178\nhttps:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=8711146<p>Is this story off limits on HN (genuine question)? \nOr is it some kind of pro Uber voter ring?<p>Given the previous discussions on HN about what an Uber executive said about a journalist etc I find it difficult to believe that HN readership doesn&#x27;t care about this case, so I thought I&#x27;d ask. Fwiw this is on top of the news in every newspaper and TV Channel in India. TechCrunch reported it too (in a weaselly fashion, but still).<p>EDIT: I am fine with a mod judgement saying &quot;Such stories are irrelevant to HN. Flagged&quot;.<p>This was a genuine question. I am not an &quot;outrage warrior&quot; or anything (see my comment history), I just found the instakills odd from a &quot;something is funny here. I wonder if someone is gaming HN voting&quot; perspective, and thought I&#x27;d ask.<p>Edit2: I did send email to the  mods and didn&#x27;t get any reply (understandable, given it is Saturday night in the USA. I just don&#x27;t like nasty people gaming systems, which was a possibility here. Hence the post. Mods, feel free to remove if you think this is inappropriate)",
+        "comment_text": null,
+        "num_comments": 110,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1417927775,
+        "relevancy_score": 5713,
+        "_tags": [
+          "story",
+          "author_plinkplonk",
+          "story_8711284"
+        ],
+        "objectID": "8711284",
+        "_highlightResult": {
+          "title": {
+            "value": "Why is every <em>story</em> on Uber Delhi driver raping a passenger getting instakilled?",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "plinkplonk",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "story_text": {
+            "value": "Every <em>story</em> on this incident is getting killed moments after submission.<p>https://news.ycombinator.com/item?id=8711222\nhttps://news.ycombinator.com/item?id=8711196\nhttps://news.ycombinator.com/item?id=8711178\nhttps://news.ycombinator.com/item?id=8711146<p>Is this <em>story</em> off limits on HN (genuine question)? \nOr is it some kind of pro Uber voter ring?<p>Given the previous discussions on HN about what an Uber executive said about a journalist etc I find it difficult to believe that HN readership doesn't care about this case, so I thought I'd ask. Fwiw this is on top of the news in every newspaper and TV Channel in India. TechCrunch reported it too (in a weaselly fashion, but still).<p>EDIT: I am fine with a mod judgement saying &quot;Such stories are irrelevant to HN. Flagged&quot;.<p>This was a genuine question. I am not an &quot;outrage warrior&quot; or anything (see my comment history), I just found the instakills odd from a &quot;something is funny here. I wonder if someone is gaming HN voting&quot; perspective, and thought I'd ask.<p>Edit2: I did send email to the  mods and didn't get any reply (understandable, given it is Saturday night in the USA. I just don't like nasty people gaming systems, which was a possibility here. Hence the post. Mods, feel free to remove if you think this is inappropriate)",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          }
+        }
+      },
+      {
+        "created_at": "2015-10-22T18:05:06.000Z",
+        "title": "A story about &lt;input&gt;",
+        "url": "http://meowni.ca/posts/a-story-about-input/",
+        "author": "kevincennis",
+        "points": 693,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 181,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1445537106,
+        "relevancy_score": 6331,
+        "_tags": [
+          "story",
+          "author_kevincennis",
+          "story_10433793"
+        ],
+        "objectID": "10433793",
+        "_highlightResult": {
+          "title": {
+            "value": "A <em>story</em> about &lt;input&gt;",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://meowni.ca/posts/a-<em>story</em>-about-input/",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "kevincennis",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2013-06-06T23:12:30.000Z",
+        "title": "The NSA story reinforces why an entity like WikiLeaks is important",
+        "url": "http://gigaom.com/2013/06/06/the-nsa-surveillance-story-reinforces-why-an-entity-like-wikileaks-is-so-important/",
+        "author": "cdooh",
+        "points": 665,
+        "story_text": "",
+        "comment_text": null,
+        "num_comments": 65,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1370560350,
+        "relevancy_score": 4665,
+        "_tags": [
+          "story",
+          "author_cdooh",
+          "story_5835866"
+        ],
+        "objectID": "5835866",
+        "_highlightResult": {
+          "title": {
+            "value": "The NSA <em>story</em> reinforces why an entity like WikiLeaks is important",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://gigaom.com/2013/06/06/the-nsa-surveillance-<em>story</em>-reinforces-why-an-entity-like-wikileaks-is-so-important/",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "cdooh",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "story_text": {
+            "value": "",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2016-04-20T18:21:36.000Z",
+        "title": "Almost Nothing About the ‘Apple Harvests Gold from iPhones’ Story Is True",
+        "url": "http://motherboard.vice.com/read/apple-does-not-melt-iphones-into-gold",
+        "author": "MikusR",
+        "points": 655,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 202,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1461176496,
+        "relevancy_score": 6681,
+        "_tags": [
+          "story",
+          "author_MikusR",
+          "story_11536543"
+        ],
+        "objectID": "11536543",
+        "_highlightResult": {
+          "title": {
+            "value": "Almost Nothing About the ‘Apple Harvests Gold from iPhones’ <em>Story</em> Is True",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://motherboard.vice.com/read/apple-does-not-melt-iphones-into-gold",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "MikusR",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2017-05-16T05:53:20.000Z",
+        "title": "“MP3 is dead” missed the real, much better story",
+        "url": "https://marco.org/2017/05/15/mp3-isnt-dead",
+        "author": "imartin2k",
+        "points": 650,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 290,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1494914000,
+        "relevancy_score": 7433,
+        "_tags": [
+          "story",
+          "author_imartin2k",
+          "story_14347648"
+        ],
+        "objectID": "14347648",
+        "_highlightResult": {
+          "title": {
+            "value": "“MP3 is dead” missed the real, much better <em>story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://marco.org/2017/05/15/mp3-isnt-dead",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "imartin2k",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2011-11-21T11:53:21.000Z",
+        "title": "The Sugru story",
+        "url": "http://sugru.com/story",
+        "author": "aqrashik",
+        "points": 636,
+        "story_text": "",
+        "comment_text": null,
+        "num_comments": 87,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1321876401,
+        "relevancy_score": 3590,
+        "_tags": [
+          "story",
+          "author_aqrashik",
+          "story_3260801"
+        ],
+        "objectID": "3260801",
+        "_highlightResult": {
+          "title": {
+            "value": "The Sugru <em>story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://sugru.com/<em>story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "aqrashik",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "story_text": {
+            "value": "",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2011-08-03T17:18:56.000Z",
+        "title": "That truck driver you flipped off? Let me tell you his story.",
+        "url": "http://www.startribune.com/opinion/otherviews/126619568.html#.TjliGe_CsCo.reddit",
+        "author": "there",
+        "points": 607,
+        "story_text": "",
+        "comment_text": null,
+        "num_comments": 287,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1312391936,
+        "relevancy_score": 3374,
+        "_tags": [
+          "story",
+          "author_there",
+          "story_2841992"
+        ],
+        "objectID": "2841992",
+        "_highlightResult": {
+          "title": {
+            "value": "That truck driver you flipped off? Let me tell you his <em>story</em>.",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "http://www.startribune.com/opinion/otherviews/126619568.html#.TjliGe_CsCo.reddit",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "there",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "story_text": {
+            "value": "",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2019-05-09T00:47:03.000Z",
+        "title": "Amazon S3 Path Deprecation Plan – The Rest of the Story",
+        "url": "https://aws.amazon.com/blogs/aws/amazon-s3-path-deprecation-plan-the-rest-of-the-story/",
+        "author": "jeffbarr",
+        "points": 604,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 135,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1557362823,
+        "relevancy_score": 8818,
+        "_tags": [
+          "story",
+          "author_jeffbarr",
+          "story_19864351"
+        ],
+        "objectID": "19864351",
+        "_highlightResult": {
+          "title": {
+            "value": "Amazon S3 Path Deprecation Plan – The Rest of the <em>Story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://aws.amazon.com/blogs/aws/amazon-s3-path-deprecation-plan-the-rest-of-the-<em>story</em>/",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "jeffbarr",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2011-02-27T00:15:58.000Z",
+        "title": "Man with ALS writes patch for Gnome using morse code (with touching story)",
+        "url": "https://bugzilla.gnome.org/show_bug.cgi?id=78514#c19",
+        "author": "pufuwozu",
+        "points": 543,
+        "story_text": "",
+        "comment_text": null,
+        "num_comments": 32,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1298765758,
+        "relevancy_score": 3065,
+        "_tags": [
+          "story",
+          "author_pufuwozu",
+          "story_2266924"
+        ],
+        "objectID": "2266924",
+        "_highlightResult": {
+          "title": {
+            "value": "Man with ALS writes patch for Gnome using morse code (with touching <em>story</em>)",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://bugzilla.gnome.org/show_bug.cgi?id=78514#c19",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "pufuwozu",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "story_text": {
+            "value": "",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2018-08-05T02:37:46.000Z",
+        "title": "G Suite Horror Story",
+        "url": "https://lawgimenez.me/2018/08/05/g-suite-horror-story/",
+        "author": "dirtylowprofile",
+        "points": 534,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 206,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1533436666,
+        "relevancy_score": 8280,
+        "_tags": [
+          "story",
+          "author_dirtylowprofile",
+          "story_17689404"
+        ],
+        "objectID": "17689404",
+        "_highlightResult": {
+          "title": {
+            "value": "G Suite Horror <em>Story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://lawgimenez.me/2018/08/05/g-suite-horror-<em>story</em>/",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "dirtylowprofile",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2018-10-19T17:15:33.000Z",
+        "title": "Apple CEO Tim Cook Calling for Bloomberg to Retract Its Chinese Spy Chip Story",
+        "url": "https://www.buzzfeednews.com/article/johnpaczkowski/apple-tim-cook-bloomberg-retraction",
+        "author": "minimaxir",
+        "points": 530,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 317,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1539969333,
+        "relevancy_score": 8428,
+        "_tags": [
+          "story",
+          "author_minimaxir",
+          "story_18258223"
+        ],
+        "objectID": "18258223",
+        "_highlightResult": {
+          "title": {
+            "value": "Apple CEO Tim Cook Calling for Bloomberg to Retract Its Chinese Spy Chip <em>Story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://www.buzzfeednews.com/article/johnpaczkowski/apple-tim-cook-bloomberg-retraction",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "author": {
+            "value": "minimaxir",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2018-10-15T00:21:08.000Z",
+        "title": "A True Story",
+        "url": "https://en.wikipedia.org/wiki/A_True_Story",
+        "author": "benbreen",
+        "points": 525,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 72,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1539562868,
+        "relevancy_score": 8428,
+        "_tags": [
+          "story",
+          "author_benbreen",
+          "story_18216459"
+        ],
+        "objectID": "18216459",
+        "_highlightResult": {
+          "title": {
+            "value": "A True <em>Story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://en.wikipedia.org/wiki/A_True_<em>Story</em>",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "benbreen",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2017-01-17T12:55:54.000Z",
+        "title": "Did Pixar accidentally delete Toy Story 2 during production? (2012)",
+        "url": "https://www.quora.com/Pixar-company/Did-Pixar-accidentally-delete-Toy-Story-2-during-production/answer/Oren-Jacob",
+        "author": "chenster",
+        "points": 515,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 253,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1484657754,
+        "relevancy_score": 7205,
+        "_tags": [
+          "story",
+          "author_chenster",
+          "story_13417037"
+        ],
+        "objectID": "13417037",
+        "_highlightResult": {
+          "title": {
+            "value": "Did Pixar accidentally delete Toy <em>Story</em> 2 during production? (2012)",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://www.quora.com/Pixar-company/Did-Pixar-accidentally-delete-Toy-<em>Story</em>-2-during-production/answer/Oren-Jacob",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "chenster",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      },
+      {
+        "created_at": "2018-03-11T15:15:33.000Z",
+        "title": "Pixar's Rules of Storytelling (2013)",
+        "url": "https://www.aerogrammestudio.com/2013/03/07/pixars-22-rules-of-storytelling/",
+        "author": "evo_9",
+        "points": 513,
+        "story_text": null,
+        "comment_text": null,
+        "num_comments": 74,
+        "story_id": null,
+        "story_title": null,
+        "story_url": null,
+        "parent_id": null,
+        "created_at_i": 1520781333,
+        "relevancy_score": 7998,
+        "_tags": [
+          "story",
+          "author_evo_9",
+          "story_16563264"
+        ],
+        "objectID": "16563264",
+        "_highlightResult": {
+          "title": {
+            "value": "Pixar's Rules of <em>Story</em>telling (2013)",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "url": {
+            "value": "https://www.aerogrammestudio.com/2013/03/07/pixars-22-rules-of-<em>story</em>telling/",
+            "matchLevel": "full",
+            "fullyHighlighted": false,
+            "matchedWords": [
+              "story"
+            ]
+          },
+          "author": {
+            "value": "evo_9",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        }
+      }
+    ]
+  }
+}

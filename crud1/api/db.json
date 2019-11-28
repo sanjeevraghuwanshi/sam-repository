@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "id": 111,
+      "name": "TVfff",
+      "price": 100,
+      "currency": "USD"
+    },
+    {
+      "id": 621,
+      "name": "SSD",
+      "price": 100,
+      "currency": "USD"
+    },
+    {
+      "id": 275,
+      "name": "IPhone 8",
+      "price": 1800,
+      "currency": "BGN"
+    },
+    {
+      "id": 360,
+      "name": "X",
+      "price": -1,
+      "currency": "F"
+    }
+  ],
+  "permissions": [
+    {
+      "id": 1,
+      "options": [
+        "CREATE",
+        "READ",
+        "UPDATE"
+      ]
+    }
+  ]
+}
