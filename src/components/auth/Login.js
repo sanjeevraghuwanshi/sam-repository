@@ -54,7 +54,7 @@ class Login extends Form {
                     <Typography className="from-title" component="h1" variant="h5"> Sign in </Typography>
 
                     <form className="formCustom" onSubmit={this.handleSubmit} noValidate>
-                        <Field className="formControl" name="email" onChange={this.handleChange} label="Please Enter Email" name="email" component={this.inputRender} />
+                        <Field className="formControl" onChange={this.handleChange} label="Please Enter Email" name="email" component={this.inputRender} />
                         <Field label="Please Enter Password" name="password" onChange={this.handleChange} component={this.inputRender} />
                         <Button type="submit" fullWidth variant="contained" color="primary">Submit</Button>
                     </form>
