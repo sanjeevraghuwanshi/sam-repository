@@ -1,10 +1,9 @@
-import React from 'react';
-import { render } from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
 import store from "./store";
 import Root from "./components/Root";
 
 
-render(
-    <Root store={store} />
-    , document.getElementById('root')
-);
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<Root store={store} />, rootElement);

@@ -1,5 +1,6 @@
-import React, { Component, Fragment } from 'react';
-import { Switch } from "react-router-dom";
+import React, { Component } from 'react';
+import { Switch, BrowserRouter, Route, Redirect } from "react-router-dom";
+import Layouts from "./layouts/Layouts";
 
 import { MainRoute } from "../routes/routesMap";
 import "./App.css";
@@ -10,13 +11,12 @@ class App extends Component {
     }
     render() {
         return (
-            <Fragment>
-                <Switch>
-                    <MainRoute />
-                </Switch>
-            </Fragment>
+            <BrowserRouter>
+                <Layouts />
+            </BrowserRouter>
         );
     }
 }
 
 export default App;
+

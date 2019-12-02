@@ -1,20 +1,27 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { routes } from "./routesConfig";
 
 export const RouteWithSubRoute = (route) => {
     return (
         <div>
-            {route.authentication ? (
-                <div>U r authorised</div>
-            ) : (
+            <Switch>
+                {route.authentication ? (
                     <Route exact
                         path={routes.path}
                         render={props => (
-                            <route.component {...props} />
+                            <div>U r authorised</div>
                         )}
                     />
-                )}
+                ) : (
+                        <Route exact
+                            path={routes.path}
+                            render={props => (
+                                <route.component {...props} />
+                            )}
+                        />
+                    )}
+            </Switch>
         </div>
     )
 }

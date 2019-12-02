@@ -65,7 +65,7 @@ class Login extends Form {
                         <NavLink to="/forgot-password" variant="body2">Forgot password? </NavLink>
                     </Grid>
                     <Grid item>
-                        <NavLink to="/register" variant="body2"> Don't have an account? Sign Up</NavLink>
+                        <NavLink to="/auth/signup" variant="body2"> Don't have an account? Sign Up</NavLink>
                     </Grid>
                 </Grid>
             </Container>

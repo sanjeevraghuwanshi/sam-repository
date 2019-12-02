@@ -12,7 +12,20 @@ const doAddUserData = userFetchedData => ({
     userFetchedData
 });
 
+const doRegister = userRegister => ({
+    type: userConstants.REGISTER_REQUEST,
+    userRegister
+});
+
+const doRegisterUserSuccess = userRegisterSuccess => ({
+    type: userConstants.REGISTER_SUCCESS,
+    userRegisterSuccess
+});
+
+
 export {
     doLogin,
-    doAddUserData
+    doAddUserData,
+    doRegister,
+    doRegisterUserSuccess
 }
