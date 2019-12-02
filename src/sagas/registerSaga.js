@@ -1,7 +1,7 @@
 import { call, put } from "@redux-saga/core/effects"
 import { addUser } from "../api/loginApi";
 import { doRegisterUserSuccess } from "../actions/userAction";
-import { push } from 'react-router-redux';
+import history from '../history';
 
 
 function* registerUser({ userRegister }) {
@@ -14,7 +14,7 @@ function* registerUser({ userRegister }) {
     }
 
     yield put(doRegisterUserSuccess(result))
-    yield put(push('/next-page'));
+    history.push('/auth/login');
 }
 
 export { registerUser };

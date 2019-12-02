@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, BrowserRouter, Route, Redirect } from "react-router-dom";
+import { Switch, BrowserRouter, Route, Redirect, Router } from "react-router-dom";
 import Layouts from "./layouts/Layouts";
 
 import { MainRoute } from "../routes/routesMap";
@@ -11,9 +11,7 @@ class App extends Component {
     }
     render() {
         return (
-            <BrowserRouter>
-                <Layouts />
-            </BrowserRouter>
+            <Layouts />
         );
     }
 }
