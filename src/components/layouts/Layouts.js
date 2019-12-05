@@ -4,12 +4,40 @@ import AuthLayout from "./AuthLayout";
 import AppLayout from "./AppLayout";
 
 const NotFound = () => <h1>Not Found</h1>;
+const Dashboard = () => <h1>Dashboard</h1>;
+const AppChart = () => <h1>AppChart</h1>;
+const Reports = () => <h1>Reports</h1>;
+
+const routes = [
+    {
+        path: "/app/dashboard",
+        component: Dashboard,
+        label: "Dashboard",
+        authentication: true,
+        authorization: false,
+    },
+    {
+        path: "/app/chart",
+        component: AppChart,
+        label: "Chart",
+        authentication: true,
+        authorization: false,
+    },
+    {
+        path: "/app/reports",
+        component: Reports,
+        label: "Reports",
+        authentication: true,
+        authorization: false,
+    }
+]
 
 const Layouts = () => {
     return (
         <Switch>
             <Route path="/auth" component={AuthLayout} />
-            <Route path="/app" component={AppLayout} />
+            <Route path="/app" render={(props) => <AppLayout routes={routes} {...props} />} />
+
             <Route path="/" component={NotFound} />
         </Switch>
     );

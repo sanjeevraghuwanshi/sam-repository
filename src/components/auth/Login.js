@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types'
+
 import { Field, reduxForm, reset } from 'redux-form';
 import Joi from "joi-browser";
 
@@ -103,6 +105,11 @@ const mapDispatchToProps = dispatch => ({
 const mapStateToProps = (state) => ({
     isAuthorise: isUserExists(state),
 });
+
+Login.prototypes = {
+    email: PropTypes.string.isRequired,
+    password: PropTypes.string.isRequired
+};
 
 const LoginMap = connect(mapStateToProps, mapDispatchToProps)(Login)
 
