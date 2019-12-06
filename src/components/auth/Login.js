@@ -17,6 +17,9 @@ import Typography from '@material-ui/core/Typography';
 
 import { isUserExists } from "../../selectors/loginSelectors";
 
+import i18next from 'i18next';
+import { Translation } from "react-i18next";
+
 class Login extends Form {
     constructor(props) {
         super(props);
@@ -24,7 +27,8 @@ class Login extends Form {
             user: {
                 email: '',
                 password: ''
-            }
+            },
+            lng: i18next.language,
         }
     }
 
@@ -53,21 +57,21 @@ class Login extends Form {
             <Container component="main" maxWidth="xs">
                 <Grid item xs={12} >
 
-                    <Typography className="from-title" component="h1" variant="h5"> Sign in </Typography>
+                    <Typography className="from-title" component="h1" variant="h5"> {i18next.t('auth.signIn')} </Typography>
 
                     <form className="formCustom" onSubmit={this.handleSubmit} noValidate>
-                        <Field className="formControl" onChange={this.handleChange} label="Please Enter Email" name="email" component={this.inputRender} />
-                        <Field label="Please Enter Password" name="password" onChange={this.handleChange} component={this.inputRender} />
-                        <Button type="submit" fullWidth variant="contained" color="primary">Submit</Button>
+                        <Field className="formControl" onChange={this.handleChange} label={i18next.t('auth.email')} name="email" component={this.inputRender} />
+                        <Field label={i18next.t('auth.password')} name="password" onChange={this.handleChange} component={this.inputRender} />
+                        <Button type="submit" fullWidth variant="contained" color="primary">{i18next.t('auth.submit')}</Button>
                     </form>
                 </Grid>
                 <br></br>
                 <Grid container>
                     <Grid item xs>
-                        <NavLink to="/forgot-password" variant="body2">Forgot password? </NavLink>
+                        <NavLink to="/forgot-password" variant="body2">{i18next.t('auth.forgotPassword')} </NavLink>
                     </Grid>
                     <Grid item>
-                        <NavLink to="/auth/signup" variant="body2"> Don't have an account? Sign Up</NavLink>
+                        <NavLink to="/auth/signup" variant="body2">{i18next.t('auth.notHaveAccount')} </NavLink>
                     </Grid>
                 </Grid>
             </Container>
@@ -96,8 +100,6 @@ const validate = (fromValue) => {
     return errors;
 }
 
-// const LoginMap = connect(mapStateToProps, { login })(Login)
-
 const mapDispatchToProps = dispatch => ({
     onFetchLoginData: user => dispatch(doLogin(user))
 })
@@ -111,7 +113,7 @@ Login.prototypes = {
     password: PropTypes.string.isRequired
 };
 
-const LoginMap = connect(mapStateToProps, mapDispatchToProps)(Login)
+const LoginMap = connect(mapStateToProps, mapDispatchToProps)(Login);
 
 export default reduxForm({
     form: 'loginForm',

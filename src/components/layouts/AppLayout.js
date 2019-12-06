@@ -12,10 +12,11 @@ import { NavLink } from 'react-router-dom';
 
 import { ListItems } from "./ListItems";
 import Dashboard from "../Dashboard";
+import AppChart from "../charts/AppChart";
 
 const Home = () => <p>Home</p>;
 // const Dashboard = () => <p>Dashboard</p>;
-const AppChart = () => <h1>AppChart</h1>;
+// const AppChart = () => <h1>AppChart</h1>;
 const Reports = () => <h1>Reports</h1>;
 
 

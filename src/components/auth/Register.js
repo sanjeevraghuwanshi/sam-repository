@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types'
+
 import { Field, reduxForm, reset } from 'redux-form';
 import Joi from "joi-browser";
 
@@ -16,6 +18,7 @@ import { isUserRegistered } from '../../selectors/registerUserSelecter';
 
 import { Redirect } from "react-router-dom";
 
+import i18next from "i18next";
 
 class Register extends Form {
   constructor(props) {
@@ -92,22 +95,22 @@ class Register extends Form {
       <Container component="main" maxWidth="xs">
         <Grid item xs={12} >
 
-          <Typography component="h1" className="from-title" variant="h5"> Sign up </Typography>
+          <Typography component="h1" className="from-title" variant="h5"> {i18next.t('auth.signUp')} </Typography>
           <form className="formCustom" onSubmit={this.handleSubmit} noValidate>
-            <Field className="formControl" onChange={this.handleChange} label="Please Enter First Name" name="firstName" component={this.inputRender} />
-            <Field className="formControl" onChange={this.handleChange} label="Please Enter Last Name" name="lastName" component={this.inputRender} />
-            <Field className="formControl" onChange={this.handleChange} label="Please Enter Email" name="email" component={this.inputRender} />
-            <Field label="Please Enter Password" onChange={this.handleChange} name="password" component={this.inputRender} />
+            <Field className="formControl" onChange={this.handleChange} label={i18next.t('auth.fName')} name="firstName" component={this.inputRender} />
+            <Field className="formControl" onChange={this.handleChange} label={i18next.t('auth.lName')} name="lastName" component={this.inputRender} />
+            <Field className="formControl" onChange={this.handleChange} label={i18next.t('auth.email')} name="email" component={this.inputRender} />
+            <Field label={i18next.t('auth.password')} onChange={this.handleChange} name="password" component={this.inputRender} />
 
-            <Button type="submit" fullWidth variant="contained" color="primary">Submit</Button>
+            <Button type="submit" fullWidth variant="contained" color="primary">{i18next.t('auth.submit')}</Button>
           </form>
 
         </Grid>
         <Grid container justify="flex-end">
           <Grid item>
             <NavLink to="/auth/login" >
-              Already have an account? Sign in
-              </NavLink>
+              {i18next.t('auth.alreadyHaveAccount')}
+            </NavLink>
           </Grid>
         </Grid>
         {this.props.onRegisterUserSuccess ? (<Redirect to="/auth/login" />) : <Redirect to="/auth/signup" />}
@@ -145,6 +148,13 @@ const validate = (fromValue) => {
   }
   return errors;
 }
+
+Register.prototypes = {
+  firstName: PropTypes.string.isRequired,
+  lastName: PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
+  password: PropTypes.string.isRequired
+};
 
 const mapStateToProps = state => ({
   onRegisterUserSuccess: isUserRegistered(state),

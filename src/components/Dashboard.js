@@ -1,13 +1,11 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
+import { Grid, Paper, Button, Snackbar } from '@material-ui/core';
 
-import Button from '@material-ui/core/Button';
-import Snackbar from '@material-ui/core/Snackbar';
 import IconButton from '@material-ui/core/IconButton';
-import CloseIcon from '@material-ui/icons/Close';
+import { Close, Icon } from '@material-ui/icons';
 
 import { withStyles } from '@material-ui/core/styles';
+import { useTranslation } from 'react-i18next';
 
 const styles = theme => ({
   buttonPadding: {
@@ -17,18 +15,15 @@ const styles = theme => ({
 
 const Dashboard = (props) => {
   const { classes } = props;
-
+  const { t, i18n } = useTranslation('common');
   const [open, setOpen] = React.useState(false);
 
-  function handleClick() {
-    setOpen(true);
-  }
+  const handleClick = () => setOpen(true);
 
-  function handleClose(event, reason) {
+  const handleClose = (event, reason) => {
     if (reason === 'clickaway') {
       return;
     }
-
     setOpen(false);
   }
 
@@ -36,8 +31,8 @@ const Dashboard = (props) => {
     <Grid item xs={12}>
       <Paper>
         <div className={classes.buttonPadding}>
-          <h3> Order</h3>
-          <Button onClick={handleClick}>Open simple snackbar</Button>
+          <h3> {t('comp.order')}</h3>
+          <Button onClick={handleClick}> {t('comp.openSnackbar')} </Button>
         </div>
         <Snackbar
           className="success"
@@ -52,11 +47,11 @@ const Dashboard = (props) => {
           ContentProps={{
             'aria-describedby': 'message-id',
           }}
-          message={<span id="message-id">Note archived</span>}
+          message={<span id="message-id"> {t('comp.noteArchived')} </span>}
           action={[
             <Button key="undo" color="secondary" size="small" onClick={handleClose}>
-              UNDO
-          </Button>,
+              {t('comp.undo')}
+            </Button>,
             <IconButton
               key="close"
               aria-label="Close"
@@ -64,7 +59,7 @@ const Dashboard = (props) => {
 
               onClick={handleClose}
             >
-              <CloseIcon />
+              <Close />
             </IconButton>,
           ]}
         />

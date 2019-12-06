@@ -1,0 +1,19 @@
+{
+    "en": {
+        "order": "Order",
+        "noteArchived": "Note archived",
+        "undo": "UNDO",
+        "openSnackbar": "Open simple snackbar",
+        "chart": "Chart",
+        "chartLoading": "Chart Loading",
+        "options": {
+            "title": "My Daily {{count}} Activities",
+            "is3D": true
+        },
+        "title": "Lighthouses",
+        "content": "Know the most beautiful lighthouses of the world.",
+        "figure": {
+            "alt": "Lighthouse picture"
+        }
+    }
+}

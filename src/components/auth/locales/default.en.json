@@ -1,0 +1,19 @@
+{
+    "en": {
+        "signIn": "Sign innn",
+        "submit": "Submit",
+        "forgotPassword": "Forgot password?",
+        "fName": "Please Enter First Name",
+        "lName": "Please Enter Last Name",
+        "email": "Please Enter Email",
+        "password": "Please Enter Password",
+        "notHaveAccount": "Don't have an account? Sign Up",
+        "alreadyHaveAccount": "Already have an account? Sign in",
+        "signUp": "Sign up",
+        "title": "Lighthouses",
+        "content": "Know the most beautiful lighthouses of the world.",
+        "figure": {
+            "alt": "Lighthouse picture"
+        }
+    }
+}
