@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { getBook } from "../../actions/booksAction";
 
-const BookLoaderHoc = () => {
+const BookLoaderHoc = (WrappedComponent) => {
     class BookLoader extends Component {
         constructor(props) {
             super(props);
@@ -9,21 +10,30 @@ const BookLoaderHoc = () => {
                 book: null
             };
         }
-
+        componentDidMount() {
+            console.log("componentDidMount called", this.props.match.params.id);
+            this.props.getBook(this.props.match.params.id);
+        }
         render() {
+            const { book } = this.props.bookDetails || null;
+            if (!book) {
+                return <div>Loading...</div>
+            }
             return (
-                <div>loader...</div>
+                <WrappedComponent {...this.props} book={book} />
             )
         }
     }
 
-    const mapStateToProps = (state) => ({
+    const mapStateToProps = (state) => (
+        {
+            bookDetails: state.bookState
+        });
 
-    })
-
-    const mapDispatchToProps = {
-
-    }
+    const mapDispatchToProps = dispatch => (
+        {
+            getBook: (id) => dispatch(getBook(id))
+        });
 
 
     return connect(
