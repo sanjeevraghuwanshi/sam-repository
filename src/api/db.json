@@ -1,4 +1,34 @@
 {
+  "books": [
+    {
+      "title": "React",
+      "author": "Sam",
+      "summary": "sdfasdfasdfsd  sfasdf asd asfa sd",
+      "id": 1,
+      "image": "cinqueterre.jpg"
+    },
+    {
+      "title": "Angular",
+      "author": "Ram",
+      "summary": "sdfasdfasdfsd  sfasdf asd asfa sd",
+      "id": 2,
+      "image": "cinqueterre.jpg"
+    },
+    {
+      "title": "Flutter",
+      "author": "Hari",
+      "summary": "sdfasdfasdfsd  sfasdf asd asfa sd",
+      "id": 3,
+      "image": "pexels-photo.jpg"
+    },
+    {
+      "title": "Backbase",
+      "author": "Siya",
+      "summary": "sdfasdfasdfsd  sfasdf asd asfa sd",
+      "id": 4,
+      "image": "pexels-photo.jpg"
+    }
+  ],
   "users": [
     {
       "id": 1,

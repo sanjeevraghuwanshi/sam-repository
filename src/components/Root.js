@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import { Router, Route } from "react-router-dom";
 import PropTypes from 'prop-types';
 import App from "./App";
-import history from '../history';
+import history from '../utils/history';
 
 import { I18nextProvider } from 'react-i18next';
 import i18n from '../i18n';

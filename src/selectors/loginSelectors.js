@@ -1,8 +1,8 @@
 
 const isUserExists = (state) => {
     console.log("selectors", state);
-    if (!!state.loginState.userData && !!state.loginState.userFetchedData) {
-        return state.loginState.userData.email === state.loginState.userFetchedData[0].email
+    if (!!state.loginState.isAuthorise) {
+        return true
     }
 }
 

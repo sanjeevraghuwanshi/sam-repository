@@ -13,11 +13,18 @@ import { NavLink } from 'react-router-dom';
 import { ListItems } from "./ListItems";
 import Dashboard from "../Dashboard";
 import AppChart from "../charts/AppChart";
+import Books from "../book/Books";
+import BookDetails from "../book/BookDetails";
+import BookSummary from "../book/BookSummary";
+
 
 const Home = () => <p>Home</p>;
 // const Dashboard = () => <p>Dashboard</p>;
 // const AppChart = () => <h1>AppChart</h1>;
 const Reports = () => <h1>Reports</h1>;
+// const BooksDetails = () => <h1>BooksDetails</h1>;
+// const BookSummary = () => <h1>BookSummary</h1>;
+
 
 
 const drawerWidth = 240;
@@ -149,7 +156,7 @@ const AppLayout = props => {
                             open={openMenu}
                             onClose={handleClose}
                         >
-                            <MenuItem onClick={handleClose}>  <NavLink to='/auth/logout'>Profile</NavLink></MenuItem>
+                            <MenuItem onClick={handleClose}>  <NavLink to='/auth/logout'>Logout</NavLink></MenuItem>
                             <MenuItem onClick={handleClose}>My account</MenuItem>
                         </Menu>
                     </div>
@@ -176,16 +183,17 @@ const AppLayout = props => {
                 <div className={classes.appBarSpacer} />
                 <Container maxWidth="lg" className={classes.container}>
                     <Grid container spacing={3}>
-                        <div>
-                            <Switch>
-                                <Route path="/app/home" exact component={Home} />
-                                <Route path="/app/dashboard" exact component={Dashboard} />
-                                <Route path="/app/chart" exact component={AppChart} />
-                                <Route path="/app/reports" exact component={Reports} />
-                                <Redirect from="/app" to="/app/home" exact />
-                                <Route />
-                            </Switch>
-                        </div>
+                        <Switch>
+                            <Route path="/app/home" exact component={Home} />
+                            <Route path="/app/dashboard" exact component={Dashboard} />
+                            <Route path="/app/chart" exact component={AppChart} />
+                            <Route path="/app/reports" exact component={Reports} />
+                            <Route path="/app/book" exact component={Books} />
+                            <Route path="/app/book/bookSummary/:id" exact component={BookSummary} />
+                            <Route path="/app/book/bookDetails/:id" exact component={BookDetails} />
+                            <Redirect from="/app" to="/app/home" exact />
+                            <Route />
+                        </Switch>
                     </Grid>
                 </Container>
             </main>

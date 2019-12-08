@@ -1,8 +1,7 @@
 import { call, put } from "@redux-saga/core/effects"
 import { addUser } from "../api/loginApi";
 import { doRegisterUserSuccess } from "../actions/userAction";
-import history from '../history';
-
+import history from '../utils/history';
 
 function* registerUser({ userRegister }) {
     let result;

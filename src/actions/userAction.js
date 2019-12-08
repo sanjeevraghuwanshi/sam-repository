@@ -9,7 +9,7 @@ const doLogin = userData => ({
 
 const doAddUserData = userFetchedData => ({
     type: userConstants.LOGIN_SUCCESS,
-    userFetchedData
+    isAuthorise: true
 });
 
 const doRegister = userRegister => ({
