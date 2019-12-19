@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/node_modules_u
+/node_modules_w
 /.pnp
 .pnp.js
 
@@ -68,3 +70,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+README.md
