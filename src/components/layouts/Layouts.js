@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import AuthLayout from "./AuthLayout";
 import AppLayout from "./AppLayout";
 import requiresAuth from "../requiresAuth";
@@ -16,7 +16,7 @@ const Layouts = () => {
             <Route path="/auth" component={AuthLayout} />
             {/* <Route path="/app" render={(props) => <AppLayout routes={routes} {...props} />} /> */}
             <Route path="/app" component={requiresAuth(AppLayout)} />
-
+            <Redirect from="/" to="/auth/login" exact />
             <Route path="/" component={NotFound} />
         </Switch>
     );

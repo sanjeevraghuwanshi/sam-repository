@@ -16,7 +16,7 @@ import AppChart from "../charts/AppChart";
 import Books from "../book/Books";
 import BookDetails from "../book/BookDetails";
 import BookSummary from "../book/BookSummary";
-
+import AddBook from "../book/AddBook";
 
 const Home = () => <p>Home</p>;
 // const Dashboard = () => <p>Dashboard</p>;
@@ -189,6 +189,7 @@ const AppLayout = props => {
                             <Route path="/app/chart" exact component={AppChart} />
                             <Route path="/app/reports" exact component={Reports} />
                             <Route path="/app/book" exact component={Books} />
+                            <Route path="/app/book/addNew" exact component={AddBook} />
                             <Route path="/app/book/bookSummary/:id" exact component={BookSummary} />
                             <Route path="/app/book/bookDetails/:id" exact component={BookDetails} />
                             <Redirect from="/app" to="/app/home" exact />

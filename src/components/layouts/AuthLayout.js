@@ -12,6 +12,7 @@ const AuthLayout = () => {
                 <Route path="/auth/signup" exact component={Register} />
                 <Route path="/auth/login" exact component={Login} />
                 <Redirect from="/auth" to="/auth/login" exact />
+                <Redirect from="/" to="/auth/login" exact />
                 <Route />
             </Switch>
         </div>
